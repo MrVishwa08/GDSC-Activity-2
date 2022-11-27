@@ -13,9 +13,17 @@ html {
 
 #num1,
 #num2 {
-  width: 50px;
+  width: 70px;
 }
 
 #op {
   width: 10px;
+}
+
+.hover {
+  background-color: rgba(231, 231, 1, 0.73);
+}
+
+div {
+  padding-bottom: 20px;
 }
