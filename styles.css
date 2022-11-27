@@ -1,19 +1,16 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: linear-gradient(to top left, #ef473e, #4da0b0);
+  background-image: linear-gradient(to top left, #ef473e, #4da0b0);
 }
 
 html {
-  height: 100%;
+  height: 100vh;
 }
 
 #num1,
 #num2 {
-  width: 70px;
+  width: 100px;
 }
 
 #op {

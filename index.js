@@ -38,6 +38,7 @@ document.querySelector("#mems").addEventListener("click", function () {
 document.querySelector("#check").addEventListener("click", function () {
   let n1 = Number(document.querySelector("#num1").value);
   let n2 = Number(document.querySelector("#num2").value);
+
   let op = document.querySelector("#op").value;
 
   let result = calculator(n1, n2, op);

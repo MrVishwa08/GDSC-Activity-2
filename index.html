@@ -30,10 +30,12 @@
           <input type="text" name="Name" />
         </label>
         <br />
+        <br />
         <label>
           Did you like our work?
           <textarea name="Feedback" id="" cols="10" rows="1"></textarea>
         </label>
+        <br />
         <br />
         <input type="submit" value="Submit!" />
       </form>
@@ -41,9 +43,9 @@
     <div class="calculator">
       <p>
         A small calculator :
-        <input type="text" id="num1" placeholder="Number 1" />
-        <input type="text" id="op" />
-        <input type="text" id="num2" placeholder="Number 2" />
+        <input type="number" id="num1" placeholder="Number 1" />
+        <input type="text" id="op" maxlength="1" />
+        <input type="number" id="num2" placeholder="Number 2" />
         <button id="check">Check!</button> Result is:
         <span id="result"></span>
       </p>
@@ -53,7 +55,7 @@
         type="text"
         name="a"
         id="last"
-        placeholder="Input 7 here to console log members"
+        placeholder="Input 7 to log members"
       />
       <button id="mems">Watch</button>
     </div>
