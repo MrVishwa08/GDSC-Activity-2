@@ -12,8 +12,12 @@ document.querySelector("#change").addEventListener("click", function () {
 
 // Changing background color of H1
 document.querySelector("#hover").addEventListener("mouseover", function () {
-  this.classList.add("hover");
+  const h1 = this;
+  h1.classList.add("hover");
   // this.classList.toggle("hover"); //This is better in my opinion
+  setTimeout(function () {
+    h1.classList.remove("hover");
+  }, 1000);
 });
 
 const members = [
@@ -69,6 +73,7 @@ function calculator(num1, num2, op) {
       break;
     default:
       console.log("Wrong input!");
+      return "Wrong input/s";
       break;
   }
 }

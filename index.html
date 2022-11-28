@@ -44,7 +44,14 @@
       <p>
         A small calculator :
         <input type="number" id="num1" placeholder="Number 1" />
-        <input type="text" id="op" maxlength="1" />
+        <select name="operator" id="op">
+          <option value="none">Select a operator</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+          <option value="%">%</option>
+        </select>
         <input type="number" id="num2" placeholder="Number 2" />
         <button id="check">Check!</button> Result is:
         <span id="result"></span>
